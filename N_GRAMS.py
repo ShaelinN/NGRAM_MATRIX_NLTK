@@ -38,8 +38,6 @@ lm.fit(train,vocab)
 
 
 #matrix
-output  =   open("output.txt","w")
-
 unique_unigrams = list(set(ngrams(flat_word_list,1)))
 unique_conditions = list(set(ngrams(flat_word_list,N-1)))
 
